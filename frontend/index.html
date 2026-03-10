@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RPA Manager</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <nav class="navbar sticky">
+        <div class="container flex-between">
+            <a href="/" class="brand">RPA Manager</a>
+            <!-- future controls could go here -->
+        </div>
+    </nav>
+
+
+    <main class="container">
+        <header class="hero">
+            <h1>Automações Disponíveis</h1>
+            <p class="subtitle">Selecione uma automação para executar ou configurar</p>
+            <div class="search-container">
+                <input id="search-input" type="text" placeholder="Pesquisar automação..." />
+            </div>
+        </header>
+
+        <div id="automations" class="automation-list">
+            <!-- Automations will be loaded here -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 RPA Manager</p>
+    </footer>
+
+<script src="/static/script.js"></script>
+</body>
+
+</html>

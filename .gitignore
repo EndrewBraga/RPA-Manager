@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.Python
+dist/
+build/
+
+# Virtual Environments
+env/
+venv/
+.venv/
+Env/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# Data/Temporary Files
+data/input/
+data/output/
+*.xlsx
+*.xls
+test_log.txt
+teste_*.xlsx
+
+# Execution artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db

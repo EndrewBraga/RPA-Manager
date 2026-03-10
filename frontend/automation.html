@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Automação - RPA Manager</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <nav class="navbar sticky">
+        <div class="container flex-between">
+            <a href="/" class="brand">RPA Manager</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <header class="hero">
+            <h1 id="automation-title">Automação</h1>
+            <p id="automation-description" class="subtitle">Clique no botão abaixo para iniciar a execução</p>
+        </header>
+
+        <section class="section automation-action-section">
+            <div class="action-box">
+                <button id="run-btn" class="btn-primary">▶ Executar Agora</button>
+                <p id="btn-status" class="btn-hint"></p>
+            </div>
+        </section>
+
+        <section class="section" id="status-section" style="display: none;">
+            <div class="status-card">
+                <div id="status-icon" class="status-icon"></div>
+                <div id="status-text" class="status-text">Preparando...</div>
+            </div>
+        </section>
+
+        <section class="section" id="result-section" style="display: none;"> 
+            <h2>📋 Log de Execução</h2>
+            <div id="result" class="result-box"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 RPA Manager</p>
+    </footer>
+
+<script src="/static/automation.js"></script>
+</body>
+
+</html>
